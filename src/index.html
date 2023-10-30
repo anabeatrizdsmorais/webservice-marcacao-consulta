@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcação de Consulta</title>
+
+    <script src="./script/jquery.min.js"></script>
+
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #011d1d;
+        }
+        
+        .field {
+            background-color: #fff;
+            border: 1px solid #cacaca;
+            border-radius: 5px;
+            margin: 20px;
+            padding: 20px;
+
+        }
+
+        header {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+
+            margin-bottom: 20px;
+        }
+
+        #disponiveis {
+            height: 30px;
+            width: 250px;
+            border-radius: 5px;
+            border: none;
+            box-shadow: 0 5px 5px 0 #cacaca;
+            
+            cursor: pointer;
+
+            background-color: #0c6b4e;
+            color: aliceblue;
+            font-size: 15px;
+        }
+        
+        #agendadas {
+            height: 30px;
+            width: 250px;
+            border-radius: 5px;
+            border: none;
+            box-shadow: 0 5px 5px 0 #cacaca;
+            
+            cursor: pointer;
+
+            background-color: #6b0c19;
+            color: aliceblue;
+            font-size: 15px;
+        }
+
+        #disponiveis:hover {
+            background-color: #054734;
+        }
+
+        #agendadas:hover {
+            background-color: rgb(71, 5, 5);
+        }
+
+        #consultas {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+    <div class="field">
+        <header>
+            <h2>Marcação de consulta</h2>
+        </header>
+    
+        <div class="">
+            <button type="button" id="disponiveis" title="Clique aqui para ver as consultas disponíveis">Disponíveis</button>
+            <button type="button" id="agendadas" title="Clique aqui para ver as consultas que foram agendadas">Agendadas</button>
+        </div>
+        
+
+        <br>
+        <hr>
+        <br>
+
+        <div id="consultas"></div>
+
+    </div>
+    
+    <script src="./index.js"></script>
+    
+</body>
+</html>

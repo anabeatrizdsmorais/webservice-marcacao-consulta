@@ -1,0 +1,61 @@
+{
+    "consultas": [
+        {
+            "id": 1,
+            "paciente": "",
+            "medico": "Dr. Paulo Cesar",
+            "especialidade": "Clinico Geral",
+            "data": "31/10/2023 08:10",
+            "disponivel": true
+        },
+        {
+            "id": 2,
+            "paciente": "",
+            "medico": "Dra. Tamara Rodrigues",
+            "especialidade": "Clinico Geral",
+            "data": "01/11/2023 08:40",
+            "disponivel": true
+        },
+        {
+            "id": 3,
+            "paciente": "",
+            "medico": "Dr. Paulo Gabriel",
+            "especialidade": "Psiquiatra",
+            "data": "01/11/2023 08:40",
+            "disponivel": false
+        },
+        {
+            "id": 4,
+            "paciente": "",
+            "medico": "Dra. Carla Santos",
+            "especialidade": "Clinico Geral",
+            "data": "01/10/2023 09:10",
+            "disponivel": false
+        },
+        {
+            "id": 5,
+            "paciente": "",
+            "medico": "Dra. Natalia Barros",
+            "especialidade": "Neurologista",
+            "data": "01/11/2023 07:05",
+            "disponivel": true
+        },
+        {
+            "id": 6,
+            "paciente": "",
+            "medico": "Dra. Ana Morais",
+            "especialidade": "Psiquiatra",
+            "data": "01/11/2023 07:50",
+            "disponivel": true
+        },
+        {
+            "id": 7,
+            "paciente": "",
+            "medico": "Dr. Mauricio Soares",
+            "especialidade": "Pediatra",
+            "data": "03/11/2023 07:30",
+            "disponivel": true
+        }
+
+    ]
+}
