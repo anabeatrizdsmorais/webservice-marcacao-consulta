@@ -33,6 +33,9 @@
             text-align: center;
 
             margin-bottom: 20px;
+
+            display: flex;
+            justify-content: space-between;
         }
 
         #disponiveis {
@@ -75,6 +78,24 @@
             font-family: Arial, Helvetica, sans-serif;
         }
 
+        #agendar {
+            height: 30px;
+            width: 250px;
+            border-radius: 5px;
+            border: none;
+            box-shadow: 0 5px 5px 0 #cacaca;
+            
+            cursor: pointer;
+
+            background-color: #9b9211;
+            color: aliceblue;
+            font-size: 15px;
+        }
+
+        #agendar:hover {
+            background-color: #414607;
+        }
+
 
     </style>
 
@@ -84,11 +105,13 @@
     <div class="field">
         <header>
             <h2>Marcação de consulta</h2>
+            <h5>Usuário logado: Victor Santos</h5>
         </header>
     
         <div class="">
             <button type="button" id="disponiveis" title="Clique aqui para ver as consultas disponíveis">Disponíveis</button>
-            <button type="button" id="agendadas" title="Clique aqui para ver as consultas que foram agendadas">Agendadas</button>
+            <button type="button" id="agendadas" title="Clique aqui para ver as consultas que foram agendadas">Marcadas</button>
+            <button type="button" id="agendar" title="Clique aqui para agendar uma consulta">Agendar consulta</button>
         </div>
         
 
